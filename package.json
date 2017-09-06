@@ -1,0 +1,22 @@
+{
+  "name": "choo-scroll-to-top",
+  "version": "1.0.0",
+  "description": "choo plugin that scrolls browser window to top on navigation",
+  "author": "Axel Anderson <axel@ftml.net>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelav/choo-scroll-to-top.git"
+  },
+  "devDependencies": {
+    "choo": "^6.0.0",
+    "standard": "^10.0.3"
+  },
+  "keywords": [
+    "client",
+    "frontend",
+    "choo",
+    "plugin",
+    "scroll"
+  ],
+  "license": "MIT"
+}
