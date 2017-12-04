@@ -1,7 +1,7 @@
 module.exports = function scrollToTop (state, emitter) {
-  emitter.on(state.events.NAVIGATE, function () {
-    if (typeof window !== 'undefined') {
+  emitter.on('DOMContentLoaded', () => {
+    emitter.on(state.events.NAVIGATE, () => {
       window.scrollTo(0, 0)
-    }
+    })
   })
 }
